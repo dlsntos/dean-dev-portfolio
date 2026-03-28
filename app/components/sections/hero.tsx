@@ -8,6 +8,7 @@ export default function Hero() {
                 <div>
                     <h1>Hi, I am Dean Louis T. Santos</h1>
                     <p>Full Stack Web Developer</p>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent sit amet risus vel augue iaculis tempus. Aliquam finibus mollis metus id mollis. Proin massa ex, aliquam quis urna in, faucibus ultrices massa. Cras rutrum scelerisque lectus, in eleifend tellus scelerisque a. Proin et orci ligula. Fusce ornare, risus ac vestibulum egestas, leo risus auctor lectus, vitae malesuada eros eros non massa. Praesent ornare at velit nec vehicula. Nam lobortis imperdiet sapien in volutpat.</p>
                     <div>
                         <Button label="View Portfolio" onClick={() => console.log("clicked!")} />
                         <Button label="Resume" onClick={() => console.log("clicked!")} />
