@@ -6,9 +6,9 @@ export default function Hero() {
         <section className="relative">
             <div className="flex flex-col md:flex-row justify-between items-center gap-8 mt-10 w-full max-w-7xl mx-auto">
                 <div>
-                    <h1>Hi, I am Dean Louis T. Santos</h1>
-                    <p>Full Stack Web Developer</p>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent sit amet risus vel augue iaculis tempus. Aliquam finibus mollis metus id mollis. Proin massa ex, aliquam quis urna in, faucibus ultrices massa. Cras rutrum scelerisque lectus, in eleifend tellus scelerisque a. Proin et orci ligula. Fusce ornare, risus ac vestibulum egestas, leo risus auctor lectus, vitae malesuada eros eros non massa. Praesent ornare at velit nec vehicula. Nam lobortis imperdiet sapien in volutpat.</p>
+                    <h1 className="text-5xl mb-2 font-bold">Hi, I am Dean Louis T. Santos</h1>
+                    <p className="text-4xl mb-5 font-semibold">Full Stack Web Developer</p>
+                    <p className="text-xl">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent sit amet risus vel augue iaculis tempus. Aliquam finibus mollis metus id mollis. Proin massa ex, aliquam quis urna in, faucibus ultrices massa. Cras rutrum scelerisque lectus, in eleifend tellus scelerisque a. Proin et orci ligula. Fusce ornare, risus ac vestibulum egestas, leo risus auctor lectus, vitae malesuada eros eros non massa. Praesent ornare at velit nec vehicula. Nam lobortis imperdiet sapien in volutpat.</p>
                     <div>
                         <Button label="View Portfolio" onClick={() => console.log("clicked!")} />
                         <Button label="Resume" onClick={() => console.log("clicked!")} />
