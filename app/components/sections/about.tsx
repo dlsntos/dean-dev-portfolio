@@ -1,5 +1,11 @@
 import SkillIcon from "../skill-icon";
+import CSharpIcon from "../skill-icon-svg/c-sharp-icon";
+import CSSIcon from "../skill-icon-svg/css-icon";
+import DotNetCoreIcon from "../skill-icon-svg/dot-net-logo";
 import HTMLIcon from "../skill-icon-svg/html-icon";
+import JavascriptIcon from "../skill-icon-svg/javascript-icon";
+import ReactIcon from "../skill-icon-svg/react-icon";
+import TypescriptIcon from "../skill-icon-svg/typescript-icon";
 export default function About() {
   return (
     <section className="relative">
@@ -22,12 +28,41 @@ export default function About() {
               developer and continuously learn and enhance my technical
               expertise and proficiency.
             </p>
-            <div className="mt-10">
+            <div className="mt-10 max-w-xl">
               <h3 className="text-2xl">Skills</h3>
-              <div>
+              <div className="flex flex-wrap gap-2">
                 <SkillIcon
                   icon={<HTMLIcon width={32} height={32} />}
                   iconName="HTML"
+                />
+                <SkillIcon
+                  icon={<CSSIcon width={32} height={32} />}
+                  iconName="CSS"
+                />
+
+                <SkillIcon
+                  icon={<JavascriptIcon width={32} height={32} />}
+                  iconName="Javascript"
+                />
+
+                <SkillIcon
+                  icon={<TypescriptIcon width={32} height={32} />}
+                  iconName="Typescript"
+                />
+
+                <SkillIcon
+                  icon={<ReactIcon width={32} height={32} />}
+                  iconName="React"
+                />
+
+                <SkillIcon
+                  icon={<CSharpIcon width={32} height={32} />}
+                  iconName="C#"
+                />
+
+                <SkillIcon
+                  icon={<DotNetCoreIcon width={32} height={32} />}
+                  iconName="ASP.NET Core"
                 />
               </div>
             </div>
