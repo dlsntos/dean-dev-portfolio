@@ -8,7 +8,7 @@ import ReactIcon from "../skill-icon-svg/react-icon";
 import TypescriptIcon from "../skill-icon-svg/typescript-icon";
 export default function About() {
   return (
-    <section className="relative">
+    <section id="about-me" className="scroll-mt-24 relative">
       <div className="py-10 mt-50 w-full max-w-7xl mx-auto">
         <h2 className="text-center text-5xl">About me</h2>
         <div className="flex justify-between items-start">
@@ -28,8 +28,10 @@ export default function About() {
               developer and continuously learn and enhance my technical
               expertise and proficiency.
             </p>
-            <div className="mt-10 max-w-xl">
-              <h3 className="text-2xl">Skills</h3>
+            <div className="mt-10 p-5 max-w-xl bg-gray-600 rounded-2xl transition duration-500 ease-in-out hover:shadow-lg hover:shadow-gray-500/50 hover:scale-105">
+              <h3 className="mb-10 text-3xl font-semibold text-white">
+                Skills
+              </h3>
               <div className="flex flex-wrap gap-2">
                 <SkillIcon
                   icon={<HTMLIcon width={32} height={32} />}
