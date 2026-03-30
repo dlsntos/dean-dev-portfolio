@@ -3,16 +3,16 @@ export default function About() {
     <section className="relative">
       <div className="py-10 mt-10 w-full max-w-7xl border mx-auto">
         <h2 className="text-center text-5xl">About me</h2>
-        <div className="flex justify-between">
-          <div>
+        <div className="flex justify-between items-start">
+          <div className="border w-full">
             <img
               src="https://media.licdn.com/dms/image/v2/D5603AQE1d7X_1zWzOw/profile-displayphoto-shrink_800_800/profile-displayphoto-shrink_800_800/0/1722985330612?e=1775692800&v=beta&t=1AQDuK4Gm2EPmuIhfv7QuW4lITqmYRRQXEF2mDZYTyg"
               alt="Dean Louis T. Santos"
               className="mt-20 max-w-md"
             />
           </div>
-          <div>
-            <p className="">
+          <div className="w-full border">
+            <p className="mt-20 text-2xl max-w-xl">
               I am a Graduating Computer Science student with a passion for
               programming, especially in web development. I am eager to apply my
               skills to build responsive and innovative web applications while
@@ -20,6 +20,10 @@ export default function About() {
               developer and continuously learn and enhance my technical
               expertise and proficiency.
             </p>
+            <div className="mt-10 border">
+              <h3 className="text-2xl">Skills</h3>
+              <div></div>
+            </div>
           </div>
         </div>
       </div>
