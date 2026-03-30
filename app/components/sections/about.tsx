@@ -1,7 +1,7 @@
 export default function About() {
   return (
     <section className="relative">
-      <div className="py-10 mt-10 w-full max-w-7xl border mx-auto">
+      <div className="py-10 mt-50 w-full max-w-7xl border mx-auto">
         <h2 className="text-center text-5xl">About me</h2>
         <div className="flex justify-between items-start">
           <div className="border w-full">
