@@ -11,10 +11,10 @@ export default function Header() {
               <Link href="/">Home</Link>
             </li>
             <li>
-              <Link href="">About</Link>
+              <Link href="#about-me">About</Link>
             </li>
             <li>
-              <Link href="">Portfolio</Link>
+              <Link href="">Projects</Link>
             </li>
             <li>
               <Link href="">Contact</Link>
