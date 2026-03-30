@@ -4,7 +4,7 @@ import Button from "../button";
 export default function Hero() {
   return (
     <section className="relative">
-      <div className="flex flex-col md:flex-row justify-between items-center gap-8 mt-10 w-full max-w-7xl mx-auto">
+      <div className="flex flex-col md:flex-row justify-between items-center gap-8 mt-10 py-20 w-full max-w-7xl mx-auto">
         <div>
           <h1 className="text-5xl mb-2 font-bold">
             Hi, I'm Dean Louis T. Santos
