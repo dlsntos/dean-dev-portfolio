@@ -22,9 +22,9 @@ export default function Hero() {
           </div>
         </div>
         <img
-          src="https://media.licdn.com/dms/image/v2/D5603AQE1d7X_1zWzOw/profile-displayphoto-shrink_800_800/profile-displayphoto-shrink_800_800/0/1722985330612?e=1775692800&v=beta&t=1AQDuK4Gm2EPmuIhfv7QuW4lITqmYRRQXEF2mDZYTyg"
-          alt="Dean Louis T. Santos"
-          className="max-w-md"
+          src="https://media.tenor.com/0MQzvm8QLdgAAAAi/pc.gif"
+          alt="Computer GIF"
+          className="mr-10 max-w-md"
         />
       </div>
     </section>
