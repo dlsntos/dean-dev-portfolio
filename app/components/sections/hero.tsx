@@ -14,11 +14,8 @@ export default function Hero() {
             Building real-world web applications with practical solutions{" "}
           </p>
           <div className="mt-5 space-x-5">
-            <Button
-              label="View Portfolio"
-              onClick={() => console.log("clicked!")}
-            />
-            <Button label="Resume" onClick={() => console.log("clicked!")} />
+            <Button label="View Portfolio" link="https://github.com/" />
+            <Button label="Resume" link="https://github.com/" />
           </div>
         </div>
         <img
