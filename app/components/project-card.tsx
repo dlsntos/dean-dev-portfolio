@@ -9,7 +9,7 @@ export default function ProjectCard({
   projectLink,
 }: ProjectCardProps) {
   return (
-    <div className="h-auto min-w-[10dvh] max-w-[30dvw] rounded-lg bg-gray-100 drop-shadow-xl drop-shadow-gray-300">
+    <div className="h-auto min-w-[10dvh] md:max-w-[30dvw] rounded-lg bg-gray-100 drop-shadow-xl drop-shadow-gray-300">
       <h3 className="text-center text-3xl pt-5">{projectTitle}</h3>
       <div className="flex justify-center w-full h-52 min-w-10 p-5">
         <img
