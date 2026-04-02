@@ -28,7 +28,7 @@ export default function About() {
               developer and continuously learn and enhance my technical
               expertise and proficiency.
             </p>
-            <div className="mt-10 p-5 max-w-xl bg-gray-600 rounded-2xl transition duration-500 ease-in-out hover:shadow-lg hover:shadow-gray-500/50 hover:scale-105">
+            <div className="mt-10 p-5 max-w-[40vw] bg-gray-600 rounded-2xl transition duration-500 ease-in-out hover:shadow-lg hover:shadow-gray-500/50 hover:scale-105">
               <h3 className="mb-10 text-3xl font-semibold text-white">
                 Skills
               </h3>
@@ -63,7 +63,7 @@ export default function About() {
                 />
 
                 <SkillIcon
-                  icon={<DotNetCoreIcon width={32} height={32} />}
+                  icon={<DotNetCoreIcon width={28} height={28} />}
                   iconName="ASP.NET Core"
                 />
               </div>
