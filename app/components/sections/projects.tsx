@@ -2,7 +2,7 @@ import ProjectCard from "../project-card";
 
 export default function Projects() {
   return (
-    <section className="relative">
+    <section id="projects" className="relative scroll-mt-24">
       <div className="py-10 mt-50 w-full max-w-7xl mx-auto">
         <h2 className="text-center text-5xl">Projects</h2>
         <div className="mt-20 grid grid-cols-3 gap-5">
