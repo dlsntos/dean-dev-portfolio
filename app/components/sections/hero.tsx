@@ -15,9 +15,9 @@ export default function Hero() {
           <p className="text-sm md:text-xl text-center md:text-left">
             Building real-world web applications with practical solutions{" "}
           </p>
-          <div className="flex justify-center gap-5 mt-5">
-            <Button label="View Portfolio" link="https://github.com/" />
-            <Button label="Resume" link="https://github.com/" />
+          <div className="flex justify-center md:justify-start gap-5 mt-5">
+            <Button label="View Projects" link="#projects" />
+            <Button label="Resume" link="https://drive.google.com/file/d/1etZ_ySg77icUDdXytIrFcLEhVKqQD7Ke/view?usp=sharing" newTab/>
           </div>
         </div>
         <img
