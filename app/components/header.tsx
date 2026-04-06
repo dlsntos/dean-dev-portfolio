@@ -17,7 +17,7 @@ export default function Header() {
               <Link href="#projects">Projects</Link>
             </li>
             <li>
-              <Link href="">Contact</Link>
+              <Link href="#contacts">Contact</Link>
             </li>
           </ul>
         </nav>
