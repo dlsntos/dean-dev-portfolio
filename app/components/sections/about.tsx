@@ -10,7 +10,7 @@ export default function About() {
   return (
     <section id="about-me" className="scroll-mt-24 relative">
       <div className="py-10 mt-50 w-full md:max-w-7xl px-5 md:px-0 mx-auto">
-        <h2 className="text-center text-5xl">About me</h2>
+        <h2 className="text-center text-5xl font-bold">About me</h2>
         <div className="flex flex-col md:flex-row justify-between items-center md:items-start">
           <div className="w-full">
             <img
